@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Verilog/P1_4/gray.xst" -ofn "E:/Verilog/P1_4/gray.syr" 
+xst -intstyle ise -ifn "E:/Verilog/P1_4/gray.xst" -ofn "E:/Verilog/P1_4/gray.syr" 
+xst -intstyle ise -ifn "E:/Verilog/P1_4/gray.xst" -ofn "E:/Verilog/P1_4/gray.syr" 
+xst -intstyle ise -ifn "E:/Verilog/P1_4/gray.xst" -ofn "E:/Verilog/P1_4/gray.syr" 
+xst -intstyle ise -ifn "E:/Verilog/P1_4/gray.xst" -ofn "E:/Verilog/P1_4/gray.syr" 

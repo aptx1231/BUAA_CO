@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/P7/DEV0_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/IR_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/IR_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/IR_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/IR_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/my_CP0/bd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bd</obj_property>
+      <obj_property name="ObjectShortName">bd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/my_CP0/Exception" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Exception</obj_property>
+      <obj_property name="ObjectShortName">Exception</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/my_CP0/IntReq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IntReq</obj_property>
+      <obj_property name="ObjectShortName">IntReq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/my_CP0/Interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Interrupt</obj_property>
+      <obj_property name="ObjectShortName">Interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/my_CP0/exl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">exl</obj_property>
+      <obj_property name="ObjectShortName">exl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/my_CP0/epc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">epc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/PC_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/PC_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/PC_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_CPU/PC_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/PRESET" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PRESET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRESET[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/COUNT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/Mode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Mode[2:1]</obj_property>
+      <obj_property name="ObjectShortName">Mode[2:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/IM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IM</obj_property>
+      <obj_property name="ObjectShortName">IM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/Enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Enable</obj_property>
+      <obj_property name="ObjectShortName">Enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/irq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/my_time0/IRQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRQ</obj_property>
+      <obj_property name="ObjectShortName">IRQ</obj_property>
+   </wvobject>
+</wave_config>

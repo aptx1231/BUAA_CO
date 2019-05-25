@@ -1,0 +1,71 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/P7/test_isim_beh.exe -prj D:/P7/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/P7/WB.v" into library work
+Analyzing Verilog file "D:/P7/pc.v" into library work
+Analyzing Verilog file "D:/P7/npc.v" into library work
+Analyzing Verilog file "D:/P7/mux.v" into library work
+Analyzing Verilog file "D:/P7/Mult_Div.v" into library work
+Analyzing Verilog file "D:/P7/MEM.v" into library work
+Analyzing Verilog file "D:/P7/im.v" into library work
+Analyzing Verilog file "D:/P7/ID.v" into library work
+Analyzing Verilog file "D:/P7/hazardUnit.v" into library work
+Analyzing Verilog file "D:/P7/grf.v" into library work
+Analyzing Verilog file "D:/P7/forward_mux.v" into library work
+Analyzing Verilog file "D:/P7/ext.v" into library work
+Analyzing Verilog file "D:/P7/ExcCode.v" into library work
+Analyzing Verilog file "D:/P7/EX.v" into library work
+Analyzing Verilog file "D:/P7/dm.v" into library work
+Analyzing Verilog file "D:/P7/DataExt.v" into library work
+Analyzing Verilog file "D:/P7/CP0.v" into library work
+Analyzing Verilog file "D:/P7/controller.v" into library work
+Analyzing Verilog file "D:/P7/cmp.v" into library work
+Analyzing Verilog file "D:/P7/alu.v" into library work
+Analyzing Verilog file "D:/P7/DEV1.v" into library work
+Analyzing Verilog file "D:/P7/DEV0.v" into library work
+Analyzing Verilog file "D:/P7/CPU.v" into library work
+Analyzing Verilog file "D:/P7/Bridge.v" into library work
+Analyzing Verilog file "D:/P7/mips.v" into library work
+Analyzing Verilog file "D:/P7/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/P7/CPU.v" Line 176: Port ALUCtrl is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/P7/CPU.v" Line 185: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/P7/CPU.v" Line 192: Port ALUCtrl is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/P7/CPU.v" Line 201: Port ALUCtrl is not connected to this instance
+Completed static elaboration
+Compiling module pc
+Compiling module im
+Compiling module ID
+Compiling module ExcCode
+Compiling module controller
+Compiling module grf
+Compiling module cmp
+Compiling module ext
+Compiling module npc
+Compiling module EX
+Compiling module alu
+Compiling module Mult_Div
+Compiling module MEM
+Compiling module dm
+Compiling module CP0
+Compiling module WB
+Compiling module DataExt
+Compiling module mux
+Compiling module forward_mux
+Compiling module hazardUnit
+Compiling module CPU
+Compiling module Bridge
+Compiling module DEV0
+Compiling module DEV1
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
+Built simulation executable D:/P7/test_isim_beh.exe
+Fuse Memory Usage: 97308 KB
+Fuse CPU Usage: 982 ms
