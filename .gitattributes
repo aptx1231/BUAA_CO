@@ -1,1 +1,4 @@
 *.v linguist-language=Verilog
+*.c linguist-language=Verilog
+*.circ linguist-language=Verilog
+*.asm linguist-language=Verilog
